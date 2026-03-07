@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		11EA2BF92F4D114F003C78F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11EA2BE02F4D114D003C78F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11EA2BE72F4D114D003C78F3;
+			remoteInfo = "Memory Garden";
+		};
+		11EA2C032F4D114F003C78F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11EA2BE02F4D114D003C78F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11EA2BE72F4D114D003C78F3;
+			remoteInfo = "Memory Garden";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11EA2BE82F4D114D003C78F3 /* Memory Garden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Garden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EA2BF82F4D114F003C78F3 /* Memory GardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory GardenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EA2C022F4D114F003C78F3 /* Memory GardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory GardenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		11EA2BEA2F4D114D003C78F3 /* Memory Garden */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Memory Garden";
+			sourceTree = "<group>";
+		};
+		11EA2BFB2F4D114F003C78F3 /* Memory GardenTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Memory GardenTests";
+			sourceTree = "<group>";
+		};
+		11EA2C052F4D114F003C78F3 /* Memory GardenUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Memory GardenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11EA2BE52F4D114D003C78F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA2BF52F4D114F003C78F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA2BFF2F4D114F003C78F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11EA2BDF2F4D114D003C78F3 = {
+			isa = PBXGroup;
+			children = (
+				11EA2BEA2F4D114D003C78F3 /* Memory Garden */,
+				11EA2BFB2F4D114F003C78F3 /* Memory GardenTests */,
+				11EA2C052F4D114F003C78F3 /* Memory GardenUITests */,
+				11EA2BE92F4D114D003C78F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11EA2BE92F4D114D003C78F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11EA2BE82F4D114D003C78F3 /* Memory Garden.app */,
+				11EA2BF82F4D114F003C78F3 /* Memory GardenTests.xctest */,
+				11EA2C022F4D114F003C78F3 /* Memory GardenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11EA2BE72F4D114D003C78F3 /* Memory Garden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EA2C0C2F4D114F003C78F3 /* Build configuration list for PBXNativeTarget "Memory Garden" */;
+			buildPhases = (
+				11EA2BE42F4D114D003C78F3 /* Sources */,
+				11EA2BE52F4D114D003C78F3 /* Frameworks */,
+				11EA2BE62F4D114D003C78F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				11EA2BEA2F4D114D003C78F3 /* Memory Garden */,
+			);
+			name = "Memory Garden";
+			packageProductDependencies = (
+			);
+			productName = "Memory Garden";
+			productReference = 11EA2BE82F4D114D003C78F3 /* Memory Garden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11EA2BF72F4D114F003C78F3 /* Memory GardenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EA2C0F2F4D114F003C78F3 /* Build configuration list for PBXNativeTarget "Memory GardenTests" */;
+			buildPhases = (
+				11EA2BF42F4D114F003C78F3 /* Sources */,
+				11EA2BF52F4D114F003C78F3 /* Frameworks */,
+				11EA2BF62F4D114F003C78F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EA2BFA2F4D114F003C78F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11EA2BFB2F4D114F003C78F3 /* Memory GardenTests */,
+			);
+			name = "Memory GardenTests";
+			packageProductDependencies = (
+			);
+			productName = "Memory GardenTests";
+			productReference = 11EA2BF82F4D114F003C78F3 /* Memory GardenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11EA2C012F4D114F003C78F3 /* Memory GardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EA2C122F4D114F003C78F3 /* Build configuration list for PBXNativeTarget "Memory GardenUITests" */;
+			buildPhases = (
+				11EA2BFE2F4D114F003C78F3 /* Sources */,
+				11EA2BFF2F4D114F003C78F3 /* Frameworks */,
+				11EA2C002F4D114F003C78F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EA2C042F4D114F003C78F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11EA2C052F4D114F003C78F3 /* Memory GardenUITests */,
+			);
+			name = "Memory GardenUITests";
+			packageProductDependencies = (
+			);
+			productName = "Memory GardenUITests";
+			productReference = 11EA2C022F4D114F003C78F3 /* Memory GardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11EA2BE02F4D114D003C78F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					11EA2BE72F4D114D003C78F3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					11EA2BF72F4D114F003C78F3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 11EA2BE72F4D114D003C78F3;
+					};
+					11EA2C012F4D114F003C78F3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 11EA2BE72F4D114D003C78F3;
+					};
+				};
+			};
+			buildConfigurationList = 11EA2BE32F4D114D003C78F3 /* Build configuration list for PBXProject "Memory Garden" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11EA2BDF2F4D114D003C78F3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 11EA2BE92F4D114D003C78F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11EA2BE72F4D114D003C78F3 /* Memory Garden */,
+				11EA2BF72F4D114F003C78F3 /* Memory GardenTests */,
+				11EA2C012F4D114F003C78F3 /* Memory GardenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11EA2BE62F4D114D003C78F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA2BF62F4D114F003C78F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA2C002F4D114F003C78F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11EA2BE42F4D114D003C78F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA2BF42F4D114F003C78F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EA2BFE2F4D114F003C78F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11EA2BFA2F4D114F003C78F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11EA2BE72F4D114D003C78F3 /* Memory Garden */;
+			targetProxy = 11EA2BF92F4D114F003C78F3 /* PBXContainerItemProxy */;
+		};
+		11EA2C042F4D114F003C78F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11EA2BE72F4D114D003C78F3 /* Memory Garden */;
+			targetProxy = 11EA2C032F4D114F003C78F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11EA2C0A2F4D114F003C78F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6P9YB37SJA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11EA2C0B2F4D114F003C78F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6P9YB37SJA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11EA2C0D2F4D114F003C78F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memory Garden/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Memory-Garden-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Memory Garden needs camera access to plant your memories in AR.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record voice memories.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Pick photos/videos for your memories.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azhengis.Memory-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11EA2C0E2F4D114F003C78F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memory Garden/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Memory-Garden-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Memory Garden needs camera access to plant your memories in AR.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record voice memories.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Pick photos/videos for your memories.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azhengis.Memory-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11EA2C102F4D114F003C78F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azhengis.Memory-GardenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memory Garden.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memory Garden";
+			};
+			name = Debug;
+		};
+		11EA2C112F4D114F003C78F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azhengis.Memory-GardenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memory Garden.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memory Garden";
+			};
+			name = Release;
+		};
+		11EA2C132F4D114F003C78F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azhengis.Memory-GardenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memory Garden";
+			};
+			name = Debug;
+		};
+		11EA2C142F4D114F003C78F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azhengis.Memory-GardenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memory Garden";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11EA2BE32F4D114D003C78F3 /* Build configuration list for PBXProject "Memory Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EA2C0A2F4D114F003C78F3 /* Debug */,
+				11EA2C0B2F4D114F003C78F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EA2C0C2F4D114F003C78F3 /* Build configuration list for PBXNativeTarget "Memory Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EA2C0D2F4D114F003C78F3 /* Debug */,
+				11EA2C0E2F4D114F003C78F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EA2C0F2F4D114F003C78F3 /* Build configuration list for PBXNativeTarget "Memory GardenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EA2C102F4D114F003C78F3 /* Debug */,
+				11EA2C112F4D114F003C78F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EA2C122F4D114F003C78F3 /* Build configuration list for PBXNativeTarget "Memory GardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EA2C132F4D114F003C78F3 /* Debug */,
+				11EA2C142F4D114F003C78F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11EA2BE02F4D114D003C78F3 /* Project object */;
+}
